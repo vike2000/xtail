@@ -12,6 +12,7 @@
 # include <stdlib.h>
 #endif
 #define  INTERN
+#include <string.h>
 #include "xtail.h"
 
 int sigcaught = 0;
@@ -343,7 +344,6 @@ int main(int argc, char *argv[])
 	 * End of checking loop.
 	 */
 	{
-	    extern unsigned sleep();
 	    (void) fflush(stdout);
 	    (void) sleep(SLEEP_TIME);
 	}
