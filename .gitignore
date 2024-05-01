@@ -2,3 +2,12 @@
 autom4te.cache
 configure~
 configure.in~
+
+# ./configure
+config.h
+config.log
+config.status
+
+# make
+*.o
+xtail
