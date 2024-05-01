@@ -1,0 +1,4 @@
+# autoupdate, autoconf
+autom4te.cache
+configure~
+configure.in~
