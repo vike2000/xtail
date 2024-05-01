@@ -1,5 +1,6 @@
 === CHANGES ===
 
+v2.1.1 - Fixing compilation on macOS (13.6 ventura) (using clang-1403.0.22.14.1) in new git repo 
 v2.1 - Stamps out a Y2K bug and now uses GNU autoconf.
 
 
